@@ -77,7 +77,7 @@
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-6 text-center z-40">
-          <img class="w-full md:w-4/5 z-50" src="images/hero.jpg"/>
+          <img class="w-full md:w-4/5 z-50" src="images/hero-optimisee.jpg" alt="lunettes de soleil sur le sable devant la mer"/>
         </div>
       </div>
     </div>
@@ -420,7 +420,7 @@
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline" title="Getting started">
               <p class="w-full text-gray-600 text-xs md:text-sm px-6">
                 xGETTING STARTED
               </p>
@@ -442,7 +442,7 @@
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline" title="Getting started">
               <p class="w-full text-gray-600 text-xs md:text-sm px-6">
                 xGETTING STARTED
               </p>
@@ -464,7 +464,7 @@
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline" title="Getting started">
               <p class="w-full text-gray-600 text-xs md:text-sm px-6">
                 xGETTING STARTED
               </p>
@@ -609,7 +609,7 @@
       <div class="container mx-auto px-8">
         <div class="w-full flex flex-col md:flex-row py-6">
           <div class="flex-1 mb-6 text-black">
-            <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+            <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#" title="Homepage Landing">
               LANDING
             </a>
           </div>
@@ -617,13 +617,13 @@
             <p class="uppercase text-gray-500 md:mb-6">Links</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Links1</a>
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500" title="Links1">Links1</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Links2</a>
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500" title="Links2">Links2</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Links3</a>
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500" title="Links3">Links3</a>
               </li>
             </ul>
           </div>
@@ -631,10 +631,10 @@
             <p class="uppercase text-gray-500 md:mb-6">Links</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Links1</a>
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500" title="Links1">Links1</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Links2</a>
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500" title="Links2">Links2</a>
               </li>
             </ul>
           </div>
@@ -642,13 +642,13 @@
             <p class="uppercase text-gray-500 md:mb-6">Social</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500" title="Facebook">Facebook</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500" title="Linkedin">Linkedin</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500" title="Twitter">Twitter</a>
               </li>
             </ul>
           </div>
@@ -656,7 +656,7 @@
             <p class="uppercase text-gray-500 md:mb-6">Company</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500" title="Contact">Contact</a>
               </li>
             </ul>
           </div>
