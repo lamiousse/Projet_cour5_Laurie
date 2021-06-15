@@ -18,6 +18,9 @@
       .gradient {
         background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
       }
+
+    
+
     </style>
   </head>
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
@@ -77,12 +80,12 @@
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-6 text-center z-40">
-          <img class="w-full md:w-4/5 z-50" src="images/hero-optimisee.jpg" alt="lunettes de soleil sur le sable devant la mer"/>
+          <img class="w-full md:w-4/5 z-50" src="images/hero-optimisee.jpg" alt="lunettes de soleil sur le sable devant la mer" width="800" height="667"/>
         </div>
       </div>
     </div>
     <div class="relative -mt-12 lg:-mt-24">
-      <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
             <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
@@ -119,7 +122,7 @@
             </p>
           </div>
           <div class="w-full sm:w-1/2 p-6">
-            <svg class="w-full sm:h-64 mx-auto" viewBox="0 0 1177 598.5" xmlns="http://www.w3.org/2000/svg">
+            <svg class="w-full sm:h-64 mx-auto" viewBox="0 0 1177 598.5" xmlns="http://www.w3.org/2000/svg" width="328" height="179">
               <title>travel booking</title>
               <path
                 transform="translate(-11.5 -150.75)"
@@ -248,7 +251,7 @@
         </div>
         <div class="flex flex-wrap flex-col-reverse sm:flex-row">
           <div class="w-full sm:w-1/2 p-6 mt-6">
-            <svg class="w-5/6 sm:h-64 mx-auto" viewBox="0 0 1176.60617 873.97852" xmlns="http://www.w3.org/2000/svg">
+            <svg class="w-5/6 sm:h-64 mx-auto" viewBox="0 0 1176.60617 873.97852" xmlns="http://www.w3.org/2000/svg" width="386" height="256">
               <title>connected world</title>
               <path
                 transform="translate(-11.697 -13.011)"
