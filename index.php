@@ -19,7 +19,26 @@
         background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
       }
 
-    
+      .nous-ecrire{
+       padding:40px;
+        background:rgba(255,255,255,0.1);
+        max-width:800px;
+      }
+      .nous-ecrire h2{
+        font-size:30px;
+        font-weight:bold;
+        text-transform:uppercase;
+      }
+
+      .nous-ecrire a{
+        display:inline-block;
+        padding:10px 20px;
+        border-radius:50px;
+        background:#fff;
+        color:#000;
+        font-weight:bold;
+        margin-top:20px;
+      }
 
     </style>
   </head>
@@ -69,10 +88,11 @@
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
           <p class="uppercase tracking-loose w-full">What business are you?</p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
-            Main Hero Message to sell yourself!
+          Allo, voici un beau petit vidéo!
           </h1>
           <p class="leading-normal text-2xl mb-8">
-            Sub-hero message, not too long and not too short. Make it just right!
+            Sub-hero message, not too long and not too short. <br/>
+            Make it just right!
           </p>
           <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             Subscribe
@@ -80,8 +100,23 @@
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-6 text-center z-40">
-          <img class="w-full md:w-4/5 z-50" src="images/hero-optimisee.jpg" alt="lunettes de soleil sur le sable devant la mer" width="800" height="667"/>
+          <!--<img class="w-full md:w-4/5 z-50" src="images/hero-optimisee.jpg" alt="lunettes de soleil sur le sable devant la mer" width="800" height="667"/>-->
+          
+          <video width="800" height="667" poster="video/poster-video.jpg" controls>
+            <source src="video/vacation.mp4" type="video/mp4">
+            Votre navigateur ne semble pas supporter la balise vidéo (p.s. Vous devriez penser à utiliser un autre navigateur ¯\_(ツ)_/¯ 
+          </video>
+       
+          <div class="nous-ecrire">
+            <h2>Écrivez-nous pour en savoir plus</h2>
+            <a href="mailto:laurie.miousse@gmail.com?subject=J'aimerais en savoir plus&body=Bonjour, SVP m'envoyer de l'information au sujet de la vidéo du site web." class="ease-in-out">Envoyer un message</a>
+          
+          </div>
+
         </div>
+
+      
+
       </div>
     </div>
     <div class="relative -mt-12 lg:-mt-24">
